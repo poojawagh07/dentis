@@ -1,0 +1,385 @@
+/* =========================
+   RESET + BASE
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f7fa;
+    color: #101828;
+    line-height: 1.5;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+.container {
+    max-width: 1400px;
+    margin: auto;
+    /* padding: 20px; */
+}
+
+/* =========================
+   HEADINGS
+========================= */
+h1 {
+
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+h2,
+h3 {
+    font-weight: 600;
+    color: #101828;
+}
+
+/* 
+h1 {
+    font-size: 36px;
+} */
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 14px;
+    color: #667085;
+}
+
+
+/* ==================================navbar========================================= */
+
+/* ======================
+   TOPBAR
+====================== */
+.topbar {
+    background: #079181;
+    color: #fff;
+    font-size: 14px;
+}
+
+.topbar-content {
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+/* ======================
+   NAVBAR
+====================== */
+.navbar {
+    background: #fff;
+    /* border-bottom: 1px solid #B77800; */
+    border-bottom: 1px solid #B77800;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+/* LOGO */
+.logo img {
+    height: 60px;
+    width: 100px;
+    /* background-color: red; */
+}
+
+/* MENU */
+.nav-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #222222;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #079181;
+}
+
+/* HAMBURGER */
+.hamburger {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.nav-menu a {
+    padding: 10px 0;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover {
+    background: #f5f7fa;
+    border-radius: 8px;
+}
+
+/* ======================
+   RESPONSIVE
+====================== */
+@media (max-width: 768px) {
+
+    .nav-menu {
+        position: absolute;
+        top: 99px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        /* ✅ CENTER ITEMS */
+        justify-content: center;
+
+        gap: 20px;
+        padding: 25px 0;
+
+        text-align: center;
+        /* ✅ TEXT CENTER */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-menu a {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+
+/* ===============================================indexpage section1=========================================== */
+/* ======================
+   HERO SECTION
+====================== */
+.hero-section {
+    background: #C592650D;
+    ;
+    /* use your design color instead of red */
+    padding: 60px 0;
+    min-height: 500px;
+    /* ✅ responsive alternative */
+    display: flex;
+    align-items: center;
+    /* vertical center */
+}
+
+/* GRID */
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+}
+
+/* LEFT CONTENT */
+/* .hero-content h1 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 15px;
+} */
+
+.hero-content h1 span {
+    color: #B77800;
+    /* golden */
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #667085;
+    margin-bottom: 25px;
+    max-width: 480px;
+}
+
+/* BUTTONS */
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+/* BUTTON BASE */
+.btn {
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* PRIMARY BUTTON */
+.btn.primary {
+    background: #B77800;
+    color: #fff;
+}
+
+/* OUTLINE BUTTON */
+.btn.outline {
+    border: 1px solid #B77800;
+    color: #000;
+    background: #fff;
+}
+
+/* IMAGE */
+.hero-image img {
+    width: 100%;
+    border-radius: 16px;
+    border: 3px solid #B77800;
+    object-fit: cover;
+}
+
+/* ======================
+   RESPONSIVE
+====================== */
+@media (max-width: 992px) {
+    .hero-content h1 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero-content p {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 28px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* ====================================section 2============================================= */
+/* ======================
+   CTA SECTION
+====================== */
+.cta-section {
+    margin-top: 40px;
+}
+
+/* GRID */
+.cta-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* BOX */
+.cta-box {
+    padding: 30px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* LEFT & RIGHT GRADIENT */
+.gradient-box {
+    background: linear-gradient(90deg,
+            #C59265,
+            #EFBA78,
+            /* ✅ FIXED */
+            #B17D56,
+            #BE9264);
+}
+
+/* CENTER BOX */
+.center-box {
+    background: #079181;
+}
+
+/* TEXT */
+
+.cta-box h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23.8px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+}
+
+/* 
+.small-text {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    opacity: 0.8;
+} */
+
+/* BUTTON */
+.cta-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* CENTER BUTTON WHITE STYLE */
+/* .cta-btn.white {
+    background: #fff;
+    color: #079181;
+    border: none;
+} */
+
+/* HOVER */
+.cta-btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .cta-container {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-box {
+        padding: 25px 15px;
+    }
+}
