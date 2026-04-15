@@ -56,4 +56,6 @@
     Sirsonite Solution Pvt.Ltd.
   </a>
 </div>
+<script src="assets/js/script.js"></script>
+
 </footer>
