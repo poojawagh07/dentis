@@ -19,11 +19,11 @@
 
     <!-- MENU -->
     <nav class="nav-menu" id="navMenu">
-      <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">Gallery</a>
-      <a href="#">Blogs</a>
-      <a href="#">Contact Us</a>
+      <a href="index.php">Home</a>
+      <a href="servicess.php">Services</a>
+      <a href="gallary.php">Gallery</a>
+      <a href="blog.php">Blogs</a>
+      <a href="contact.php">Contact Us</a>
     </nav>
 
     <!-- HAMBURGER -->
