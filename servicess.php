@@ -37,7 +37,7 @@
               A comparatively less time consuming approach to root canal
               treatment.
             </div>
-            <a href="#" class="services-btn">Know More</a>
+            <a href="contact.php" class="services-btn">Know More</a>
           </div>
         </div>
 
@@ -55,7 +55,7 @@
               Complete functional & aesthetic restoration for severely damaged
               or worn-out teeth.
             </div>
-            <a href="#" class="services-btn">Know More</a>
+            <a href="contact.php" class="services-btn">Know More</a>
           </div>
         </div>
 
@@ -73,7 +73,7 @@
               Permanent replacement for missing teeth with high-precision
               implant systems.
             </div>
-            <a href="#" class="services-btn">Know More</a>
+            <a href="contact.php" class="services-btn">Know More</a>
           </div>
         </div>
 
@@ -91,7 +91,7 @@
               Transform your smile with veneers, bonding, contouring & advanced
               cosmetic techniques.
             </div>
-            <a href="#" class="services-btn">Know More</a>
+            <a href="contact.php" class="services-btn">Know More</a>
           </div>
         </div>
 
@@ -108,7 +108,7 @@
               Instant brightening with LASER whitening technology for sparkling
               white teeth.
             </div>
-            <a href="#" class="services-btn">Know More</a>
+            <a href="contact.php" class="services-btn">Know More</a>
           </div>
         </div>
 
@@ -125,7 +125,7 @@
               Clear, comfortable, and removable aligners for perfect teeth
               alignment.
             </div>
-            <a href="#" class="services-btn">Know More</a>
+            <a href="contact.php" class="services-btn">Know More</a>
           </div>
         </div>
 
@@ -142,7 +142,7 @@
               Routine check-ups, fillings, preventive dental care & oral hygiene
               treatments.
             </div>
-            <a href="#" class="services-btn">Know More</a>
+            <a href="contact.php" class="services-btn">Know More</a>
           </div>
         </div>
 
@@ -158,7 +158,7 @@
             <div class="services-text">
               Painless surgical removal of impacted or infected wisdom teeth.
             </div>
-            <a href="#" class="services-btn">Know More</a>
+            <a href="" class="services-btn">Know More</a>
           </div>
         </div>
 
@@ -175,7 +175,7 @@
               Deep cleaning & polishing for healthier gums and a fresh, clean
               smile.
             </div>
-            <a href="#" class="services-btn">Know More</a>
+            <a href="contact.php" class="services-btn">Know More</a>
           </div>
         </div>
 
@@ -192,7 +192,7 @@
               High-comfort natural-looking dentures to restore full chewing and
               aesthetics.
             </div>
-            <a href="#" class="services-btn">Know More</a>
+            <a href="contact.php" class="services-btn">Know More</a>
           </div>
         </div>
 
@@ -209,7 +209,7 @@
               Strong, aesthetic zirconia crowns designed to blend naturally with
               your smile.
             </div>
-            <a href="#" class="services-btn">Know More</a>
+            <a href="contact.php" class="services-btn">Know More</a>
           </div>
         </div>
       </div>

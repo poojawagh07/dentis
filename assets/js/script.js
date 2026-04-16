@@ -134,4 +134,46 @@ document.addEventListener('DOMContentLoaded', function () {
   container.addEventListener('mouseleave', () => {
     interval = setInterval(autoScroll, 20)
   })
+
+  // ============================topbar=================
+  window.addEventListener('scroll', function () {
+    const btn = document.getElementById('topbar-btn')
+    if (!btn) return
+
+    if (window.scrollY > 200) {
+      btn.classList.add('show')
+    } else {
+      btn.classList.remove('show')
+    }
+  })
+
+  document.addEventListener('click', function (e) {
+    if (e.target.id === 'topbar-btn') {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    }
+  })
+
+// ===============================watsap==================================
+  window.addEventListener('scroll', function () {
+  const btn = document.getElementById('topbar-btn')
+  if (!btn) return
+
+  if (window.scrollY > 200) {
+    btn.style.opacity = "1"
+    btn.style.visibility = "visible"
+  } else {
+    btn.style.opacity = "0"
+    btn.style.visibility = "hidden"
+  }
+})
+
+document.getElementById('topbar-btn')?.addEventListener('click', function () {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
+})
 })

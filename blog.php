@@ -1,8 +1,8 @@
 
+      <?php include './includes/header.php'; ?>
+
   
-  
-  <body>
-    <?php include './includes/header.php'; ?>
+ 
   <section class="services-hero">
 
   <!-- Background Image -->
@@ -331,6 +331,5 @@ href="blog-details.php"              class="blog-btn"
       </div>
     </div>
 
-   
+   </section>
     <?php include './includes/footer.php'; ?>
-  </body>
